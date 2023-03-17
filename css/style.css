@@ -89,6 +89,22 @@ article:hover {
     box-shadow: none;
 }
 
+.technologies {
+    margin: 5px auto;
+}
+
+.technologies ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.technologies ul li {
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /* --- SCROLLBAR --- */
 ::-webkit-scrollbar {
     width: 5px;
@@ -102,4 +118,33 @@ article:hover {
 ::-webkit-scrollbar-thumb {
     background: rgb(112, 112, 112);
     border-radius: 10px;
+}
+
+
+
+
+
+/* COLORS */
+#html {
+    background-color: #F15B29;
+}
+
+#css {
+    background-color: #1775BB;
+}
+
+#js {
+    background-color: #FCB040;
+}
+
+#react {
+    background-color: #6BDCFB;
+}
+
+#bulma {
+    background-color: #00D0B1;
+}
+
+#sass {
+    background-color: #CD669A;
 }
