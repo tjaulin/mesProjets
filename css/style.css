@@ -45,7 +45,7 @@ strong {
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    height: 520px;
     overflow: auto;
     gap: 40px;
     padding: 10px 0;
